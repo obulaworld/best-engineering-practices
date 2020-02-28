@@ -1,0 +1,31 @@
+{
+  "name": "best-engineering-practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && nodemon dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obulaworld/best-engineering-practices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obulaworld/best-engineering-practices/issues"
+  },
+  "homepage": "https://github.com/obulaworld/best-engineering-practices#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
